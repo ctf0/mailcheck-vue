@@ -19,7 +19,7 @@ npm install mailcheck-vue --save
     ```
 
 - now use it like
-    ```vue
+    ```html
     <mail-check
         model-name="email"
         :data="email"
@@ -43,7 +43,7 @@ npm install mailcheck-vue --save
 
 [docs]: https://github.com/mailcheck/mailcheck
 
-> \# Why we need both `data` & `modelName` ?
+> \# Why we need both `data` & `modelName` ? <br>
 > to update the parent v-model without the need to use an EventBus, if someone have a better idea am all :ear:.
 
 <br>

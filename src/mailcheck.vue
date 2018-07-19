@@ -5,13 +5,6 @@
     </div>
 </template>
 
-<style>
-    .mail-check {
-        cursor: pointer;
-        color: red;
-    }
-</style>
-
 <script>
 import Mailcheck from 'mailcheck'
 
