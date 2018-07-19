@@ -1,0 +1,23 @@
+{
+    "license": "MIT",
+    "version": "1.0.0",
+    "author": "ctf0",
+    "name": "mailcheck-vue",
+    "main": "src/mailcheck.vue",
+    "description": "vuejs wrapper for mailcheck",
+    "homepage": "https://github.com/ctf0/mailcheck-vue",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ctf0/mailcheck-vue.git"
+    },
+    "peerDependecies": {
+        "vue": "^2.0.0"
+    },
+    "dependencies": {
+        "mailcheck": "^1.0.0"
+    },
+    "keywords": [
+        "vue",
+        "email validation"
+    ]
+}
