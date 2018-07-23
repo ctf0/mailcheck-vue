@@ -41,7 +41,10 @@ export default {
         },
         distanceFunction: {
             type: Function,
-            required: false
+            required: false,
+            default: () => {
+                return Mailcheck.sift4Distance
+            }
         }
     },
     data() {
