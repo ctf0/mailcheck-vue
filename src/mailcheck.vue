@@ -29,14 +29,14 @@ export default {
             type: Array,
             required: false,
             default: () => {
-                return Mailcheck.topLevelDomains
+                return Mailcheck.defaultTopLevelDomains
             }
         },
         secondLevelDomains: {
             type: Array,
             required: false,
             default: () => {
-                return Mailcheck.secondLevelDomains
+                return Mailcheck.defaultSecondLevelDomains
             }
         },
         distanceFunction: {
@@ -58,10 +58,10 @@ export default {
 
             Mailcheck.run({
                 email: vm.data,
-                domains: this.domains,                       // optional
-                topLevelDomains: this.topLevelDomains,       // optional
-                secondLevelDomains: this.secondLevelDomains, // optional
-                distanceFunction: this.distanceFunction,     // optional
+                domains: vm.domains,                       // optional
+                topLevelDomains: vm.topLevelDomains,       // optional
+                secondLevelDomains: vm.secondLevelDomains, // optional
+                distanceFunction: vm.distanceFunction,     // optional
                 suggested: (suggestion) => {
                     vm.suggestion = suggestion.full
                 },
