@@ -1,6 +1,8 @@
-# mailcheck-vue
-
-[![npm](https://img.shields.io/npm/v/mailcheck-vue.svg?style=for-the-badge)](https://www.npmjs.com/package/mailcheck-vue) [![npm](https://img.shields.io/npm/dt/mailcheck-vue.svg?style=for-the-badge)](https://www.npmjs.com/package/mailcheck-vue)
+<h1 align="center" style="border: none">
+    mailcheck-vue
+    <br>
+    <a href="https://www.npmjs.com/package/mailcheck-vue"><img src="https://img.shields.io/npm/v/mailcheck-vue.svg?style=for-the-badge" alt="npm" /></a> <a href="https://www.npmjs.com/package/mailcheck-vue"><img src="https://img.shields.io/npm/dt/mailcheck-vue.svg?style=for-the-badge" alt="npm" /></a>
+</h1>
 
 ## Installation
 
@@ -45,8 +47,6 @@ npm install mailcheck-vue --save
 
 > \# Why we need both `data` & `modelName` ? <br>
 > to update the parent v-model without the need to use an EventBus, if someone have a better idea am all :ear:.
-
-<br>
 
 - to style the result, use `mail-check` ex.
     ```css
