@@ -17,7 +17,7 @@ npm install mailcheck-vue --save
     ```js
     window.Vue = require('vue')
 
-    Vue.component('MailCheck', require('mailcheck-vue'))
+    Vue.component('MailCheck', require('mailcheck-vue').default)
     ```
 
 - now use it like
